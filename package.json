@@ -11,20 +11,6 @@
 		"build": "webpack --config webpack.prod.js",
 		"deploy": "node deploy-to-github.js"
 	},
-	"author": {
-		"name": "Alejandro Sanchez",
-		"url": "http://alesanchezr.com/"
-	},
-	"contributors": [
-		{
-			"name": "Alejandro Sanchez",
-			"url": "http://alesanchezr.com/"
-		},
-		{
-			"name": "Ignacio Cordoba",
-			"url": "http://github.com/nachovz"
-		}
-	],
 	"license": "ISC",
 	"devDependencies": {
 		"@babel/cli": "^7.4.3",
@@ -77,7 +63,10 @@
 		]
 	},
 	"dependencies": {
-		"bootstrap": "^4.3.1",
+		"bootstrap": "^4.6.0",
+		"firebase": "^9.0.1",
+		"jquery": "^3.6.0",
+		"popper.js": "^1.16.1",
 		"prop-types": "^15.6.1",
 		"react": "^16.8.4",
 		"react-dom": "^16.8.4",
